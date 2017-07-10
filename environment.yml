@@ -1,9 +1,12 @@
 name: tutorial-comp-stats
+channels:
+    - conda-forge
+    - defaults
 dependencies:
-  - python
-  - numpy
-  - matplotlib
-  - pandas
-  - scipy
-  - jupyter
-  - ipython
+    - python=3.6
+    - numpy
+    - matplotlib
+    - pandas
+    - scipy
+    - jupyter
+    - ipython
